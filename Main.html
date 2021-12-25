@@ -1,0 +1,32 @@
+<html>
+<script src="load.js"></script>
+<script src="choice.js"></script>
+<head>
+<style>
+.myDiv {
+  border: 3px outset red;
+  background-color: #002e00;   
+}
+</style>
+</head>
+<body>
+<div class="mydiv">
+<center><h1><font color="blue"><u>Visualisation Lab for Data Structures in Binary Tree</u>
+</font></h1></center>
+<center><form>
+ <select id = "dropdown" onchange="load()" autofocus>
+	 <option selected disabled></option> 	
+   <option value = "heap">Min Heap Data Structure</option>
+   <option value = "heap1">Max Heap Data Structure</option>
+   <option value = "bst">Binary Search Tree</option>
+   <!-- <option value = "avl">AVL Tree</option> -->
+   <!-- <option value = "rb">Red Black Tree</option> -->
+   <option value = "seg">Segment Tree Visualiser</option>
+ </select>
+</form></center>
+</div>
+<div>
+<iframe id="body" src="empty.html" width="100%" height="100%"></iframe>
+</div>
+</body>
+</html>
